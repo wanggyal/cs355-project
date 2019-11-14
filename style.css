@@ -56,7 +56,7 @@ body{
 
 }
 
-.courseSubmenu ul, .browerSubMenu ul{
+.courseSubmenu ul, .browerSubMenu ul, .active ul{
 display: none;
 
 }
@@ -65,7 +65,8 @@ display: none;
   text-decoration: none;
   color: Black;
 }
-.right ul li:hover .courseSubmenu ul, .right ul li:hover .browerSubMenu ul, .right ul li:hover .searchbox ul{
+.right ul li:hover .courseSubmenu ul, .right ul li:hover .browerSubMenu ul,
+ .right ul li:hover .searchbox ul, .right ul li:hover .active ul{
   display: block;
   position: absolute;
   margin: 10px;
@@ -79,7 +80,7 @@ display: none;
   color:green;
 }
 
-.courseSubmenu ul li, .browerSubMenu ul li, .searchbox ul li{
+.courseSubmenu ul li, .browerSubMenu ul li, .searchbox ul li, .active ul li{
   margin-top: 5px;
   padding: 0px;
 }
@@ -107,4 +108,11 @@ display: none;
 #result {
   padding: 30px;
   color:darkorange;
+}
+.about{
+  border: 1px solid-line;
+  background-color: white;
+  text-align: justify;
+  padding: 20px;
+  margin: 100px;
 }
