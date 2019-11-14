@@ -1,0 +1,110 @@
+*
+{
+  padding:  0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size:cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+.left {
+  width: 20%;
+  float: left;
+  padding: 15px;
+  margin-top: 25px;
+  padding-bottom: 30px;
+
+}
+
+.right {
+  width: 80%;
+  float: right;
+  padding-right: auto;
+
+  text-align: right;
+}
+
+
+.left li a{
+  text-decoration: none;
+  color: Black;
+}
+
+.left li {
+  text-decoration: none;
+  list-style: none;
+}
+.right ul{
+  display: inline-flex;
+  list-style: none;
+
+}
+
+.right ul li{
+
+  width: auto;
+  padding: 15px;
+  margin: 15px;
+  margin-right: 5px;
+
+}
+
+.courseSubmenu ul, .browerSubMenu ul{
+display: none;
+
+}
+
+.right ul li a{
+  text-decoration: none;
+  color: Black;
+}
+.right ul li:hover .courseSubmenu ul, .right ul li:hover .browerSubMenu ul, .right ul li:hover .searchbox ul{
+  display: block;
+  position: absolute;
+  margin: 10px;
+  background-color: lightBlue;
+  border-radius: 10px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.right ul li a:hover {
+  color:green;
+}
+
+.courseSubmenu ul li, .browerSubMenu ul li, .searchbox ul li{
+  margin-top: 5px;
+  padding: 0px;
+}
+
+
+.courseSubmenu ul li:hover{
+  color: green;
+}
+
+
+.searchbox ul{
+  position: absolute;
+  display: none;
+  list-style: none;
+  text-align: left;
+}
+
+.right ul li:hover {
+  color: green;
+}
+#browser-heading {
+  text-align: center;
+  width: 100%;
+}
+#result {
+  padding: 30px;
+  color:darkorange;
+}

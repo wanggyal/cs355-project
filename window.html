@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Wanggyal Sherpa</title>
+</head>
+
+<body>
+
+<div class="left">
+    <li> <a href="index.html"><i class="home"></i> Home</a>
+    </li>
+</div>
+<div class="right">
+      <ul>
+
+      <li> <a href="#"> About</a>
+        <div class="active">
+        </div>
+      </li>
+
+      <li><a href="#"> Course </a>
+        <div class="courseSubmenu">
+          <ul>
+            <li><a href="https://learn.zybooks.com/signin">Zybook</li></a>
+            <li><a href="https://app.tophat.com/login">TopHat</li></a>
+            <li><a href="https://drive.google.com/drive/folders/1AsHhIFfQ3yNE_m2z4wswRfKh77K0UH9w">GoogleDrive</li></a>
+            <li><a href="https://www.w3schools.com">w3school.com</li></a>
+          </ul>
+        </div>
+      </li>
+
+      <li><a href="#"> Browser </a>
+        <div class="browerSubMenu">
+          <ul>
+            <li><a href="navigator.html">Navigator</li></a>
+            <li><a href="window.html">Window</li></a>
+            <li><a href="screen.html">Screen</li></a>
+            <li><a href="location.html">Location</li></a>
+            <li><a href="geolocation.html">GeoLocation</li></a>
+          </ul>
+        </div>
+      </li>
+
+      <li><a href="#">Search</a>
+        <div class="searchbox">
+              <ul>
+                <li><a href="#">upload file</li></a>
+                <li><a href="#">Custom Search</li></a>
+                <li>Api Search</li>
+              </ul>
+        </div>
+      </li>
+
+    </ul>
+</div>
+
+
+
+
+<div class="gcse-searchbox"></div>
+<div class="gcse-searchresults"></div>
+
+
+
+  <h1 id="browser-heading">   Window   </h1>
+<p><br></p>
+<p id="result">this is window</p>
+
+<script>
+function myFunction() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  document.getElementById("result").innerHTML = "Width: " + w + "<br>Height: " + h;
+}
+</script>
+
+
+
+
+</body>
+
+
+
+</html>
