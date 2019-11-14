@@ -5,8 +5,11 @@
   box-sizing: border-box;
 }
 
-body{
+body,html{
   background-image: url(background.jpg);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
   box-sizing: border-box;
